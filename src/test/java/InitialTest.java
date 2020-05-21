@@ -29,7 +29,7 @@ public class InitialTest {
         try {
 
             driver = new RemoteWebDriver(
-                    URI.create("http://localhost:4444/wd/hub").toURL(),
+                    URI.create("http://bfe8ff7c.ngrok.io/wd/hub").toURL(),
                     capabilities
             );
         } catch (MalformedURLException e) {

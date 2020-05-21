@@ -1,11 +1,5 @@
 version: '3'
 services:
-#  jenkins
-#    image: "jenkins/jenkins"
-#    ports:
-#      - "8080:8080"
-#    links:
-#      - selenoid
   selenoid:
     image: "aerokube/selenoid"
     network_mode: bridge
@@ -27,3 +21,8 @@ services:
     ports:
       - "8081:8080"
     command: ["--selenoid-uri", "http://selenoid:4444"]
+  jenkins:
+    network_mode: bridge
+    image: "jenkins/jenkins"
+    ports:
+      - "8080:8080"

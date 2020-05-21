@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7eb78877-fb4e-4216-89be-0ec146530804" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InitialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InitialTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/InitialTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -47,6 +47,19 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="jenkins-gradle-test" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jenkins-gradle-test" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jenkins-gradle-test" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
@@ -67,8 +80,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/InitialTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,21 +103,9 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/video/.gitkeep">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/InitialTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -100,15 +113,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="141">
               <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -175,15 +179,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/config/browsers.json" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/src/test/java/InitialTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="289" />
     <option name="width" value="1440" />
     <option name="height" value="811" />
   </component>
@@ -204,6 +208,23 @@
               <item name="jenkins-gradle-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="jenkins-gradle-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="jenkins-gradle-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jenkins-gradle-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jenkins-gradle-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jenkins-gradle-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jenkins-gradle-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jenkins-gradle-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -213,6 +234,9 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -227,6 +251,25 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.InitialTest.searchGoogleForAgency04">
+    <configuration name="jenkins-gradle-test [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="jenkins-gradle-test [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -287,8 +330,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.InitialTest.searchGoogleForAgency04" />
-        <item itemvalue="JUnit.InitialTest" />
         <item itemvalue="Gradle.jenkins-gradle-test [build]" />
+        <item itemvalue="Gradle.jenkins-gradle-test [assemble]" />
+        <item itemvalue="JUnit.InitialTest" />
         <item itemvalue="Gradle.jenkins-gradle-test [testClasses]" />
       </list>
     </recent_temporary>
@@ -297,27 +341,6 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="InitialTest - 2020.05.21 at 11h 59m 24s.xml">
-      <configuration name="InitialTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InitialTest - 2020.05.21 at 12h 26m 49s.xml">
-      <configuration name="InitialTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InitialTest - 2020.05.21 at 12h 31m 25s.xml">
-      <configuration name="InitialTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InitialTest - 2020.05.21 at 12h 34m 28s.xml">
-      <configuration name="InitialTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InitialTest_searchGoogleForAgency04 - 2020.05.21 at 12h 36m 09s.xml">
-      <configuration name="InitialTest.searchGoogleForAgency04" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InitialTest_searchGoogleForAgency04 - 2020.05.21 at 12h 39m 07s.xml">
-      <configuration name="InitialTest.searchGoogleForAgency04" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InitialTest_searchGoogleForAgency04 - 2020.05.21 at 12h 41m 06s.xml">
-      <configuration name="InitialTest.searchGoogleForAgency04" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="InitialTest_searchGoogleForAgency04 - 2020.05.21 at 12h 43m 25s.xml">
       <configuration name="InitialTest.searchGoogleForAgency04" configurationId="JUnit" />
     </history-entry>
@@ -327,9 +350,30 @@
     <history-entry file="InitialTest_searchGoogleForAgency04 - 2020.05.21 at 12h 48m 35s.xml">
       <configuration name="InitialTest.searchGoogleForAgency04" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="InitialTest_searchGoogleForAgency04 - 2020.05.21 at 13h 35m 30s.xml">
+      <configuration name="InitialTest.searchGoogleForAgency04" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InitialTest - 2020.05.21 at 13h 51m 09s.xml">
+      <configuration name="InitialTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InitialTest - 2020.05.21 at 13h 51m 28s.xml">
+      <configuration name="InitialTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InitialTest_searchGoogleForAgency04 - 2020.05.21 at 13h 51m 39s.xml">
+      <configuration name="InitialTest.searchGoogleForAgency04" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InitialTest_searchGoogleForAgency04 - 2020.05.21 at 13h 51m 50s.xml">
+      <configuration name="InitialTest.searchGoogleForAgency04" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InitialTest_searchGoogleForAgency04 - 2020.05.21 at 13h 52m 31s.xml">
+      <configuration name="InitialTest.searchGoogleForAgency04" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InitialTest_searchGoogleForAgency04 - 2020.05.21 at 13h 58m 13s.xml">
+      <configuration name="InitialTest.searchGoogleForAgency04" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="811" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="822" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
@@ -338,7 +382,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2816092" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3479491" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -417,10 +461,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/test/classes/InitialTest.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/InitialTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -430,29 +494,80 @@
     <entry file="file://$PROJECT_DIR$/config/video/.gitkeep">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/InitialTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>test|jenkins-gradle-test</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8.0_211</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

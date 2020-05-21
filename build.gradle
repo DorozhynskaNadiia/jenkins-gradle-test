@@ -2,8 +2,12 @@ plugins {
     id 'java'
 }
 
-group 'test'
+group 'jenkins-gradle-test'
 version '1.0-SNAPSHOT'
+
+test {
+    useJUnit()
+}
 
 sourceCompatibility = 1.8
 

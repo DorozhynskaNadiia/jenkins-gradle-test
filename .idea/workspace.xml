@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7eb78877-fb4e-4216-89be-0ec146530804" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/InitialTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -32,6 +32,9 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/test">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -42,31 +45,7 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="jenkins-gradle-test" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jenkins-gradle-test" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jenkins-gradle-test" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jenkins-gradle-test" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="jenkins-gradle-test" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -77,11 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -89,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/InitialTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+            <state relative-caret-position="279">
+              <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,7 +82,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/video/.gitkeep">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -186,8 +165,15 @@
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="289" />
+    <option name="x" value="126" />
+    <option name="y" value="42" />
     <option name="width" value="1440" />
     <option name="height" value="811" />
   </component>
@@ -250,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.InitialTest.searchGoogleForAgency04">
+  <component name="RunManager" selected="Gradle.jenkins-gradle-test [test]">
     <configuration name="jenkins-gradle-test [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -308,14 +294,24 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="InitialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jenkins-gradle-test.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InitialTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="jenkins-gradle-test [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="InitialTest.searchGoogleForAgency04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jenkins-gradle-test.test" />
@@ -329,11 +325,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.jenkins-gradle-test [test]" />
+        <item itemvalue="Gradle.jenkins-gradle-test [testClasses]" />
         <item itemvalue="JUnit.InitialTest.searchGoogleForAgency04" />
         <item itemvalue="Gradle.jenkins-gradle-test [build]" />
         <item itemvalue="Gradle.jenkins-gradle-test [assemble]" />
-        <item itemvalue="JUnit.InitialTest" />
-        <item itemvalue="Gradle.jenkins-gradle-test [testClasses]" />
       </list>
     </recent_temporary>
   </component>
@@ -341,21 +337,6 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="InitialTest_searchGoogleForAgency04 - 2020.05.21 at 12h 43m 25s.xml">
-      <configuration name="InitialTest.searchGoogleForAgency04" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InitialTest_searchGoogleForAgency04 - 2020.05.21 at 12h 46m 27s.xml">
-      <configuration name="InitialTest.searchGoogleForAgency04" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InitialTest_searchGoogleForAgency04 - 2020.05.21 at 12h 48m 35s.xml">
-      <configuration name="InitialTest.searchGoogleForAgency04" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InitialTest_searchGoogleForAgency04 - 2020.05.21 at 13h 35m 30s.xml">
-      <configuration name="InitialTest.searchGoogleForAgency04" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InitialTest - 2020.05.21 at 13h 51m 09s.xml">
-      <configuration name="InitialTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="InitialTest - 2020.05.21 at 13h 51m 28s.xml">
       <configuration name="InitialTest" configurationId="JUnit" />
     </history-entry>
@@ -371,19 +352,34 @@
     <history-entry file="InitialTest_searchGoogleForAgency04 - 2020.05.21 at 13h 58m 13s.xml">
       <configuration name="InitialTest.searchGoogleForAgency04" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="InitialTest_searchGoogleForAgency04 - 2020.05.21 at 14h 01m 40s.xml">
+      <configuration name="InitialTest.searchGoogleForAgency04" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InitialTest_searchGoogleForAgency04 - 2020.05.21 at 14h 26m 37s.xml">
+      <configuration name="InitialTest.searchGoogleForAgency04" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InitialTest_searchGoogleForAgency04 - 2020.05.21 at 14h 46m 28s.xml">
+      <configuration name="InitialTest.searchGoogleForAgency04" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="jenkins-gradle-test_[test] - 2020.05.21 at 14h 52m 09s.xml">
+      <configuration name="jenkins-gradle-test [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="jenkins-gradle-test_[test] - 2020.05.21 at 14h 58m 21s.xml">
+      <configuration name="jenkins-gradle-test [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="822" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3197425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3479491" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994253" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34844193" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -394,22 +390,10 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Gradle" order="4" weight="0.3297568" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Gradle" order="4" visible="true" weight="0.3297568" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/InitialTest.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/build.gradle" />
@@ -471,28 +455,28 @@
     <entry file="file://$PROJECT_DIR$/out/test/classes/InitialTest.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/config/logs/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/video/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/InitialTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+        <state relative-caret-position="279">
+          <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/logs/.gitkeep">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/video/.gitkeep">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
